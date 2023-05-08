@@ -28,7 +28,7 @@ namespace RemoteTrace
     //    public string maskedValue { get; set; }
 
     //}
-    public partial class WebTrace : System.Web.UI.Page
+        public partial class WebTrace : System.Web.UI.Page
     {
         CacheItemRemovedCallback onRemove = null;
         string traceDirectory = "D:\\data\\logs\\trace\\";

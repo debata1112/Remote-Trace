@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteTrace", "RemoteTrace.csproj", "{7DA67918-760D-48B7-9A9B-4E8C87267DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "..\WebApplication1\WebApplication1.csproj", "{E8833303-B3F6-4FFA-AA49-EED00904750F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebTrace", "WebTrace", "{173B67C6-9F3D-43FF-9A4E-9384831E1A73}"
+	ProjectSection(SolutionItems) = preProject
+		WebTrace\trace.aspx = WebTrace\trace.aspx
+		WebTrace\trace.aspx.cs = WebTrace\trace.aspx.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DA67918-760D-48B7-9A9B-4E8C87267DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA67918-760D-48B7-9A9B-4E8C87267DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA67918-760D-48B7-9A9B-4E8C87267DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA67918-760D-48B7-9A9B-4E8C87267DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8833303-B3F6-4FFA-AA49-EED00904750F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8833303-B3F6-4FFA-AA49-EED00904750F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8833303-B3F6-4FFA-AA49-EED00904750F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8833303-B3F6-4FFA-AA49-EED00904750F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EF25F50-BD09-4232-9D03-AFC997BB355B}
+	EndGlobalSection
+EndGlobal
